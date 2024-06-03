@@ -2,6 +2,7 @@ from: markdown
 to: html
 data-dir: _data
 fail-if-warnings: false
+section-divs: true
 shift-heading-level-by: 1
 filters:
   - pandoc-crossref

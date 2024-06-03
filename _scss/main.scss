@@ -40,10 +40,11 @@ $theme-colors: (
 // Customize some defaults
 $body-color:           #111118;
 $body-bg:              #fffff8;
-$border-radius:        .4rem;
+$primary:              $blue-800;
 $light:                #fcf9e6;
 $body-emphasis-color:  $primary;
 $link-decoration:      none;
+$border-radius:        .4rem;
 
 $link-color:           $primary;
 $link-hover-color:     $blue-900;
@@ -286,6 +287,20 @@ h3 {
   font-variant-numeric: lining-nums;
 }
 
+.row > h2,
+.row > section > h2 {
+  @extend .text-center;
+  color: $primary;
+}
+
+.row > section {
+  font-size: 1.3rem;
+  font-family: $font-family-serif;
+  h2:not(first-of-type) {
+    @extend .mt-5;
+  }
+}
+
 h5,
 dt {
   @extend .me-2;
@@ -402,10 +417,6 @@ h3.card-title,
 
 // Blockquote {{{3
 // Bootstrap specs <blockquote> wrapped in <figure>.
-.blockquote {
-  @extend .my-3;
-}
-
 blockquote > footer,
 blockquote + figcaption {
   @extend .col-lg-6;
@@ -415,6 +426,11 @@ blockquote + figcaption {
 figcaption,
 blockquote > footer {
   @extend .fw-medium;
+}
+
+.blockquote {
+  @extend .my-3;
+  @extend .ps-5;
 }
 
 small {
@@ -562,42 +578,29 @@ main {
 
 main > .container > .row {
   @extend .gx-3;
-  &:not(.wide) {
-    > p,
-    > h2,
-    > h3, 
-    > h4, 
-    > h5, 
-    > h6, 
-    > hr,
-    > ol, 
-    > ul, 
-    > pre, 
-    > address, 
-    > dl, 
-    > fieldset, 
-    > form, 
-    > table,
-    > figure:not(.subfigures) img:not(.col-lg-12):not(.aside),
-    #refs {
-      @extend .col-lg-8;
-    }
-    > blockquote,
-    > .blockquote {
-      @extend .col-md-11;
-      @extend .col-lg-6;
-      @extend .offset-md-1;
-    }
+}
+
+.row:not(.wide) > section {
+  @extend .col-lg-8;
+  h2 {
+    @extend .ms-0;
+    @extend .clearfix;
+    width: 150% !important;
   }
 }
 
 .epigraph {
   @extend .col-md-10;
-  @extend .col-lg-5;
   @extend .offset-md-2;
-  @extend .col-lg-6;
-  @extend .offset-lg-1;
+  @extend .col-xl-8;
+  @extend .offset-xl-4;
   @extend .fst-italic;
+  + figcaption {
+    @extend .col-md-8;
+    @extend .offset-md-4;
+    @extend .col-xl-6;
+    @extend .offset-xl-6;
+  }
 }
 
 // CSL {{{3
@@ -661,7 +664,7 @@ main > .container > .row {
 .sidenote-number {
   @extend .mx-1;
   cursor: pointer;
-  font-family: $font-family-base;
+  font-family: inherit;
   counter-increment: sidenote-counter;
   &:after {
     content: counter(sidenote-counter);

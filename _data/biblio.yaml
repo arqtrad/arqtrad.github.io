@@ -1,57 +1,71 @@
 ---
 references:
-- id: cataldi:2015tipologie
+- id: costa:1937documentacao1
   author:
-    - family: Cataldi
-      given: Giancarlo
-  citation-key: cataldi:2015tipologie
-  container-title: 1º Congresso Internacional, Mértola
-  event-place: Lisboa
-  event-title: ArquitecturaTradicional no Mediterrâneo Ocidental
+    - family: Costa
+      given: Lucio
+  citation-key: costa:1937documentacao1
+  container-title: Revista do Patrimônio Histórico e Artístico Nacional
   issued:
-    - year: 2015
-      month: 5
-  language: it
-  page: 38–47
-  publisher: Argumentum
-  publisher-place: Lisboa
-  source: Library Catalog (Koha)
-  title: 'Tipologie dell''abitare: Ipotesi evolutive e quadro metodologico'
-  title-short: Tipologie dell'abitare
-  type: paper-conference
+    - year: 1937
+  language: por
+  page: 31-39
+  title: Documentação necessária
+  type: article-journal
+  volume: '1'
 
-- id: costa:2015moradas
-  author:
-    - family: Costa
-      given: Miguel Reimão
-  call-number: NA7414 .A77 2015
-  citation-key: costa:2015moradas
-  container-title: >-
-    Arquitetura Tradicional no Mediterrâneo Ocidental = Traditional architecture
-    in the western Mediterranean
-  editor:
-    - family: Costa
-      given: Miguel Reimão
-    - family: Gómez Martínez
-      given: Susana
-    - family: Ribeiro
-      given: Vítor
-  event-place: 'Lisboa : Mértola'
-  event-title: >-
-    1o Congresso Internacional: Mértola, 13, 14 e 15 de maio de 2015 = 1st
-    International Conference: Mértola, 13th, 14th and 15th May 2015
-  ISBN: 978-972-8479-85-5
+- id: mattoso:2010patrimonio
+  call-number: NA1502 .P38 2010
+  citation-key: mattoso:2010patrimonio
+  collection-editor:
+    - family: Mattoso
+      given: José
+  collection-title: Arquitetura e Urbanismo
+  event-place: Lisboa
   issued:
-    - year: 2015
-  language: pt
-  page: 13-19
-  publisher: Argumentum ; Campo Arqueológico de Mértola
-  publisher-place: 'Lisboa : Mértola'
+    - year: 2010
+    - year: 2011
+  language: por
+  number-of-volumes: '3'
+  publisher: Fundação Calouste Gulbenkian
+  publisher-place: Lisboa
   source: Library of Congress ISBN
-  title: >-
-    As moradas de casas do núcleo intramuros de Mértola: uma leitura preliminar
-    da arquitetura doméstica entre o final do Antigo Regime e o início do século
-    XX
-  title-short: As moradas de casas do núcleo intramuros de Mértola
-  type: paper-conference
+  title: Património de origem portuguesa no mundo
+  type: book
+
+- id: revista:19371
+  citation-key: revista:19371
+  event-place: Rio de Janeiro
+  issued:
+    - year: 1937
+  language: por
+  publisher: Serviço do Patrimônio Histórico e Artístico Nacional
+  publisher-place: Rio de Janeiro
+  title: Revista do Patrimônio Histórico e Artístico Nacional
+  type: book
+  volume: '1'
+
+- id: rossa:2010patrimonio
+  call-number: NA1502 .P38 2010
+  citation-key: rossa:2010patrimonio
+  collection-editor:
+    - family: Mattoso
+      given: José
+  collection-number: Ásia Oceania
+  collection-title: Arquitetura e Urbanismo
+  editor:
+    - family: Rossa
+      given: Walter
+  event-place: Lisboa
+  ISBN: 978-989-95758-5-1
+  issued:
+    - year: 2010
+  language: por
+  number-of-pages: '554'
+  publisher: Fundação Calouste Gulbenkian
+  publisher-place: Lisboa
+  source: Library of Congress ISBN
+  title: Património de origem portuguesa no mundo
+  title-short: Património de origem portuguesa no mundo
+  type: book
 ...
