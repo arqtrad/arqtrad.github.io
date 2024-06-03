@@ -1,0 +1,29 @@
+---
+layout: "layouts/base.njk"
+header:
+  overlay_image: "/assets/media/arqtrad-overlay.jpg"
+triptych:
+- image_path: "https://i.pinimg.com/564x/f7/76/49/f7764902ee90d4fc48b6f795307bc366.jpg"
+  title     : "Casa"
+  url       : "https://casa.tradicional.arq.br"
+  btn_class : "btn-outline-primary"
+- image_path: "/assets/media/an-teaser.jpg"
+  title     : "Arquitetura cívica"
+  url       : "https://arquitetura-civica.tradicional.arq.br"
+  btn_class : "btn-outline-primary"
+- image_path: "/assets/media/fragoso-teaser.jpg"
+  title     : "Cidade"
+  url       : "https://cidade.tradicional.arq.br"
+  btn_class : "btn-outline-primary"
+templateEngineOverride: njk
+---
+
+{%- if not lang -%}
+  {%- set lang = site.locale -%}
+{%- endif %}
+
+<section id="subprojetos">
+  <h2 class="text-center pb-3">Subprojetos</h2>
+{%- include "partials/triptych.njk" -%}
+</section>
+
