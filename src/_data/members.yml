@@ -25,7 +25,7 @@ Eduarda Viana:
   name          : "Eduarda de Sousa Viana de Santana"
   givenName     : "Eduarda de Sousa"
   familyName    : "Viana de Santana"
-  avatar        : /assets/media/avatar-eduarda-viana.jpg
+  avatar        : "https://estrategias-construcao.tradicional.arq.br/assets/media/avatar-eduarda-viana.jpg"
   bio           : "Iniciação científica 2023–2024"
   location      : "Universidade de Brasília"
   orcid: "https://orcid.org/0009-0006-7479-6365"
@@ -37,7 +37,7 @@ Jean Adalto:
   givenName     : "Jean Adalto Ferreira"
   additionalName: "dos"
   familyName    : "Santos"
-  avatar        : /assets/media/avatar-jean-adalto.jpg
+  avatar        : "https://estrategias-construcao.tradicional.arq.br/assets/media/avatar-jean-adalto.jpg"
   bio           : "Iniciação científica 2023–2024"
   location      : "Universidade de Brasília"
   orcid: "https://orcid.org/0009-0005-8143-2079"
@@ -59,7 +59,7 @@ Sara Guimarães de Oliveira:
 Eduarda Toscano:
   name    : "Eduarda Toscano de Carvalho"
   bio     : "Iniciação científica 2021–2022"
-  avatar  : /assets/media/avatar-eduarda-toscano.jpg
+  avatar  : "https://estrategias-construcao.tradicional.arq.br/assets/media/avatar-eduarda-toscano.jpg"
   orcid   : "https://orcid.org/0009-0001-1800-4830"
   lattes  : "http://lattes.cnpq.br/7412720893793734"
   links:

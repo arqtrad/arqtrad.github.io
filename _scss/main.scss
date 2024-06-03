@@ -700,6 +700,9 @@ main > .container > .row {
   @media (prefers-color-scheme: dark) {
     opacity: 80%;
   }
+  h1 {
+    @extend .d-none;
+  }
 }
 
 .hero__caption {
