@@ -319,7 +319,7 @@ h3 {
   h2:not(first-of-type) {
     @extend .mt-5;
   }
-  a {
+  a:not(.btn) {
     color: inherit;
     text-decoration: underline;
   }
@@ -578,6 +578,10 @@ blockquote > footer {
   @extend .fw-medium;
 }
 
+.btn {
+  font-family: $font-family-unb;
+}
+
 .btn-outline-primary {
   @media (prefers-color-scheme: dark) {
     border-color: $blue-400;
@@ -618,7 +622,7 @@ main > .container > .row {
   @extend .gx-3;
 }
 
-.row:not(.wide) > section {
+.row:not(.wide) > section:not(.wide) {
   @extend .col-lg-8;
   h2 {
     @extend .ms-0;

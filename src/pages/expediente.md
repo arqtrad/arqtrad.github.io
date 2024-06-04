@@ -10,8 +10,9 @@ header:
   {%- set lang = site.locale -%}
 {%- endif %}
 
+# Documentários # {.wide}
+
 ```{=html}
-<h2 id="documentários">Documentários</h2>
 {% include "partials/triptych.njk" %}
 ```
 
