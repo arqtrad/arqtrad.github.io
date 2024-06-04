@@ -75,10 +75,10 @@ references:
 - id: mattoso:2010patrimonio
   call-number: NA1502 .P38 2010
   citation-key: mattoso:2010patrimonio
-  collection-editor:
+  collection-title: Arquitetura e Urbanismo
+  editor:
     - family: Mattoso
       given: José
-  collection-title: Arquitetura e Urbanismo
   event-place: Lisboa
   issued:
     - year: 2010

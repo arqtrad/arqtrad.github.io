@@ -23,11 +23,13 @@ A nossa antiga arquitetura ainda não foi convenientemente estudada.
 </blockquote>
 
 <figcaption class="blockquote-footer">
-Lucio Costa, <q>Documentação necessária</q>,
+Lucio Costa, [<q>Documentação necessária</q>],
 <cite>Revista do Patrimônio Histórico e Artístico Nacional</cite> 1
 (1937): 31.
 </figcaption>
 </figure>
+
+[<q>Documentação necessária</q>]: #ref-costa:1937documentacao1
 
 Quase noventa anos depois da afirmação de Lucio Costa,
 a antiga arquitetura de influência portuguesa pelo mundo tem sido

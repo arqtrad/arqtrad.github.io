@@ -320,7 +320,8 @@ h3 {
     @extend .mt-5;
   }
   a {
-    @extend .link-body-emphasis;
+    color: inherit;
+    text-decoration: underline;
   }
 }
 
@@ -700,6 +701,7 @@ main > .container > .row {
   padding: 1rem;
   display: inline;
   @include media-breakpoint-down(md) { // {{{3
+    cursor: pointer;
     // _utilities.scss > .offcanvas
     position: fixed;
     bottom: 0;
@@ -748,9 +750,7 @@ main > .container > .row {
 
 .sidenote-number { // {{{3
   @extend .mx-1;
-  @extend .text-secondary;
   @extend sup;
-  cursor: pointer;
   font-family: inherit;
   counter-increment: sidenote-counter;
   &:after {
@@ -783,9 +783,7 @@ label.margin-toggle:not(.sidenote-number) {
 
 .sidenote,
 .marginnote,
-.margin-toggle,
-.sidenote-number,
-.sidenote-number:after,
+.margin-toggle:not(.sidenote-number),
 .sidenote:before {
   @extend .fw-medium;
   @extend .text-secondary;
