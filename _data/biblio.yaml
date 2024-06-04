@@ -1,5 +1,45 @@
 ---
 references:
+- id: amaral:1961arquitectura
+  citation-key: amaral:1961arquitectura
+  collection-editor:
+    - family: Amaral
+      given: Francisco Keil
+      dropping-particle: do
+  event-place: Lisboa
+  issued:
+    - year: 1961
+  language: por
+  number-of-volumes: '2'
+  publisher: Sindicato Nacional dos Arquitectos
+  publisher-place: Lisboa
+  title: Arquitectura popular em Portugal
+  type: book
+
+- id: caldas:2000arquitectura
+  archive_location: 728.6 (469.9)
+  call-number: NA1329.A96 A76 2000
+  citation-key: caldas:2000arquitectura
+  contributor:
+    - family: Fernandes
+      given: José Manuel
+    - family: Tostões
+      given: Ana
+  editor:
+    - family: Caldas
+      given: João Vieira
+  event-place: Lisboa
+  ISBN: 978-972-97668-1-7
+  issued:
+    - year: 2000
+  language: por
+  number-of-pages: '560'
+  publisher: Ordem dos Arquitectos
+  publisher-place: Lisboa
+  source: Library of Congress ISBN
+  title: Arquitectura popular dos Açores
+  type: book
+
 - id: costa:1937documentacao1
   author:
     - family: Costa
@@ -13,6 +53,24 @@ references:
   title: Documentação necessária
   type: article-journal
   volume: '1'
+
+- id: costa:2001desenhos
+  author:
+    - family: Costa
+      given: Lucio
+  citation-key: costa:2001desenhos
+  editor:
+    - family: Vital
+      given: J. D.
+  event-place: Araxá
+  issued:
+    - year: 2001
+  language: por
+  number-of-pages: '24'
+  publisher: Companhia Brasileira de Metalurgia e Mineração
+  publisher-place: Araxá
+  title: Desenhos da juventude
+  type: book
 
 - id: mattoso:2010patrimonio
   call-number: NA1502 .P38 2010
@@ -33,17 +91,50 @@ references:
   title: Património de origem portuguesa no mundo
   type: book
 
-- id: revista:19371
-  citation-key: revista:19371
-  event-place: Rio de Janeiro
+- id: mayumi:2008taipa
+  author:
+    - family: Mayumi
+      given: Lia
+  citation-key: mayumi:2008taipa
+  event-place: São Paulo
+  ISBN: 978-85-88585-17-1 85-88585-17-0
   issued:
-    - year: 1937
+    - year: 2008
   language: por
-  publisher: Serviço do Patrimônio Histórico e Artístico Nacional
-  publisher-place: Rio de Janeiro
-  title: Revista do Patrimônio Histórico e Artístico Nacional
+  publisher: Romano Guerra
+  publisher-place: São Paulo
+  source: Open WorldCat
+  title: >-
+    Taipa, canela-preta e concreto: estudo sobre o restauro de casas
+    bandeiristas
+  title-short: Taipa, canela-preta e concreto
   type: book
-  volume: '1'
+
+- id: rodrigues:1944documentario
+  abstract: 28,5 cm x 21,5 cm
+  accessed:
+    - year: 2016
+      month: 1
+      day: 22
+  author:
+    - family: Rodrigues
+      given: José Wasth
+  call-number: 720.981 R696 d2
+  citation-key: rodrigues:1944documentario
+  contributor:
+    - literal: Biblioteca do Ministério da Fazenda no Rio de Janeiro
+  event-place: São Paulo
+  issued:
+    - year: 1944
+    - year: 1951
+  language: por
+  number-of-pages: '66'
+  number-of-volumes: '8'
+  publisher: Martins
+  publisher-place: São Paulo
+  source: Internet Archive
+  title: Documentário arquitetônico relativo á antiga construção civil no Brasil
+  type: book
 
 - id: rossa:2010patrimonio
   call-number: NA1502 .P38 2010
@@ -68,4 +159,16 @@ references:
   title: Património de origem portuguesa no mundo
   title-short: Património de origem portuguesa no mundo
   type: book
+
+- id: sphan:1937revista
+  citation-key: sphan:1937revista
+  event-place: Rio de Janeiro
+  issued:
+    - year: 1937
+  language: por
+  publisher: Serviço do Patrimônio Histórico e Artístico Nacional
+  publisher-place: Rio de Janeiro
+  title: Revista do Patrimônio Histórico e Artístico Nacional
+  type: book
+  volume: '1'
 ...
