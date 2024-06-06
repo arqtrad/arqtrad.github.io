@@ -4,11 +4,14 @@ triptych: documentarios
 templateEngineOverride: njk,md
 header:
   overlay_filter: 0.3
+  suppressTitle: true
 ---
 
-{%- if not lang -%}
-  {%- set lang = site.locale -%}
-{%- endif %}
+```{=html}
+{% if not lang %}
+  {% set lang = site.locale %}
+{% endif %}
+```
 
 # Documentários # {.wide}
 
