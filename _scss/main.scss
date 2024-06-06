@@ -633,7 +633,20 @@ main > .container > .row {
   }
 }
 
-// epigraph {{{3
+// typography {{{3
+hr.clearfix { // invisible border to separate .newthought sections
+  @extend .border-0;
+}
+
+h5 { // semantic emulation of .newthought
+  @extend .lh-1;
+  @extend .mb-0;
+  margin-top: .375rem;
+  font-family: inherit;
+  float: left;
+  vertical-align: baseline;
+}
+
 .epigraph {
   @extend .mt-5;
   @extend .col-10;
