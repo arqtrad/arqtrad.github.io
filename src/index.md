@@ -1,5 +1,4 @@
 ---
-permalink: /
 triptych: documentarios
 templateEngineOverride: njk,md
 header:
