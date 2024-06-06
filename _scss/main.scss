@@ -62,32 +62,32 @@ $pagination-active-bg: $primary;
 
 @font-face {
     font-family: 'Weiss Std'; // Weiss Std normal italic {{{2
-    src: url('/assets/fonts/weissstd-italic-webfont.woff2') format('woff2'),
-         url('/assets/fonts/weissstd-italic-webfont.woff') format('woff');
+    src: url('https://tradicional.arq.br/assets/fonts/weissstd-italic-webfont.woff2') format('woff2'),
+         url('https://tradicional.arq.br/assets/fonts/weissstd-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Weiss Std'; // Weiss Std bold {{{2
-    src: url('/assets/fonts/weissstd-bold-webfont.woff2') format('woff2'),
-         url('/assets/fonts/weissstd-bold-webfont.woff') format('woff');
+    src: url('https://tradicional.arq.br/assets/fonts/weissstd-bold-webfont.woff2') format('woff2'),
+         url('https://tradicional.arq.br/assets/fonts/weissstd-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Weiss Std'; // Weiss Std extra bold {{{2
-    src: url('/assets/fonts/weissstd-extrabold-webfont.woff2') format('woff2'),
-         url('/assets/fonts/weissstd-extrabold-webfont.woff') format('woff');
+    src: url('https://tradicional.arq.br/assets/fonts/weissstd-extrabold-webfont.woff2') format('woff2'),
+         url('https://tradicional.arq.br/assets/fonts/weissstd-extrabold-webfont.woff') format('woff');
     font-weight: bolder;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Weiss Std'; // Weiss Std regular {{{2
-    src: url('/assets/fonts/weissstd-webfont.woff2') format('woff2'),
-         url('/assets/fonts/weissstd-webfont.woff') format('woff');
+    src: url('https://tradicional.arq.br/assets/fonts/weissstd-webfont.woff2') format('woff2'),
+         url('https://tradicional.arq.br/assets/fonts/weissstd-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -486,11 +486,6 @@ q {
       text-shadow: 1px 1px 2px rgba($body-bg-dark, 70%);
     }
   }
-  &.hero-home {
-    @include media-breakpoint-up(lg) {
-      min-height: 50vh;
-    }
-  }
 }
 
 #bibliography {
@@ -819,12 +814,17 @@ label.margin-toggle:not(.sidenote-number) {
 // Custom classes {{{2
 // hero {{{3
 .hero-home {
-  aspect-ratio: 1.9 / 1;
+  @include media-breakpoint-up(lg) {
+    min-height: 50vh;
+  }
   @media (prefers-color-scheme: dark) {
     opacity: 80%;
   }
-  h1 {
-    @extend .d-none;
+  &.suppress-title {
+    aspect-ratio: 1.9 / 1;
+    h1 {
+      @extend .d-none;
+    }
   }
 }
 
@@ -836,8 +836,10 @@ label.margin-toggle:not(.sidenote-number) {
   @extend .text-end;
   @extend .opacity-50;
   @extend .text-bg-dark;
-  font-size: 75%;
-  border-top-left-radius: var(--bs-border-radius) !important;
+  @extend small;
+  @include media-breakpoint-up(md) {
+    border-top-left-radius: var(--bs-border-radius) !important;
+  }
   a {
     @extend .link-light;
     @extend .link-opacity-75;
