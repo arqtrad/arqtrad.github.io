@@ -5,10 +5,10 @@ title_separator          : "-"
 subtitle                 : "luso-brasileira"
 name                     : "Pedro P. Palazzo"
 description: >-
-  Documentário da arquitetura cívica publicada na bibliografia de
+  Documentários da arquitetura tradicional publicada na bibliografia de
   referência.
 url                      : "https://arquitetura.tradicional.arq.br"
-baseurl                  : "/"
+baseurl                  : 
 repository               : "arqtrad/arqtrad.github.io"
 teaser                   : 
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
