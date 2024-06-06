@@ -1,57 +1,532 @@
 ---
 references:
-- id: cataldi:2015tipologie
-  author:
-    - family: Cataldi
-      given: Giancarlo
-  citation-key: cataldi:2015tipologie
-  container-title: 1º Congresso Internacional, Mértola
+- id: amaral:1961arquitectura
+  citation-key: amaral:1961arquitectura
+  collection-editor:
+    - family: Amaral
+      given: Francisco Keil
+      dropping-particle: do
   event-place: Lisboa
-  event-title: ArquitecturaTradicional no Mediterrâneo Ocidental
   issued:
-    - year: 2015
-      month: 5
-  language: it
-  page: 38–47
-  publisher: Argumentum
+    - year: 1961
+  language: por
+  number-of-volumes: '2'
+  publisher: Sindicato Nacional dos Arquitectos
   publisher-place: Lisboa
-  source: Library Catalog (Koha)
-  title: 'Tipologie dell''abitare: Ipotesi evolutive e quadro metodologico'
-  title-short: Tipologie dell'abitare
-  type: paper-conference
+  title: Arquitectura popular em Portugal
+  type: book
 
-- id: costa:2015moradas
+- id: anacleto:1997arquitectura
+  accessed:
+    - year: 2019
+      month: 9
+      day: 22
+  author:
+    - family: Anacleto
+      given: Maria Regina Dias Baptista Teixeira
+  citation-key: anacleto:1997arquitectura
+  event-place: Lisboa
+  issued:
+    - year: 1997
+  language: por
+  license: embargoedAccess
+  number-of-volumes: '2'
+  publisher: Fundação Calouste Gulbenkian
+  publisher-place: Lisboa
+  source: estudogeral.sib.uc.pt
+  title: 'Arquitectura neomedieval portuguesa : 1780-1924'
+  title-short: Arquitectura neomedieval portuguesa
+  type: book
+
+- id: anacleto:1997arquitectura1
+  accessed:
+    - year: 2019
+      month: 9
+      day: 22
+  author:
+    - family: Anacleto
+      given: Maria Regina Dias Baptista Teixeira
+  citation-key: anacleto:1997arquitectura1
+  event-place: Lisboa
+  issued:
+    - year: 1997
+  language: por
+  license: embargoedAccess
+  publisher: Fundação Calouste Gulbenkian
+  publisher-place: Lisboa
+  source: estudogeral.sib.uc.pt
+  title: 'Arquitectura neomedieval portuguesa : 1780-1924'
+  title-short: Arquitectura neomedieval portuguesa
+  type: book
+  volume: '1'
+
+- id: caldas:2000arquitectura
+  archive_location: 728.6 (469.9)
+  call-number: NA1329.A96 A76 2000
+  citation-key: caldas:2000arquitectura
+  contributor:
+    - family: Fernandes
+      given: José Manuel
+    - family: Tostões
+      given: Ana
+  editor:
+    - family: Caldas
+      given: João Vieira
+  event-place: Lisboa
+  ISBN: 978-972-97668-1-7
+  issued:
+    - year: 2000
+  language: por
+  number-of-pages: '560'
+  publisher: Ordem dos Arquitectos
+  publisher-place: Lisboa
+  source: Library of Congress ISBN
+  title: Arquitectura popular dos Açores
+  type: book
+
+- id: casanova:1895casa1
+  accessed:
+    - year: 2020
+      month: 4
+      day: 6
+  author:
+    - family: Casanova
+      given: Enrique
+  citation-key: casanova:1895casa1
+  container-title: Arte Portugueza
+  issue: '1'
+  issued:
+    - year: 1895
+      month: 1
+  language: por
+  page: 21-22
+  title: Casa portugueza
+  type: article-journal
+  URL: >-
+    http://hemerotecadigital.cm-lisboa.pt/Periodicos/ArtePortugueza/N01/N01_item1/P23.html
+  volume: I
+
+- id: casanova:1895casa2
+  accessed:
+    - year: 2020
+      month: 4
+      day: 6
+  author:
+    - family: Casanova
+      given: Enrique
+  citation-key: casanova:1895casa2
+  container-title: Arte Portugueza
+  issue: '6'
+  issued:
+    - year: 1895
+      month: 6
+  language: por
+  page: 141-142
+  title: Casa portugueza
+  type: article-journal
+  URL: >-
+    http://hemerotecadigital.cm-lisboa.pt/Periodicos/ArtePortugueza/N06/N06_item1/P23.html
+  volume: I
+
+- id: costa:1937documentacao1
   author:
     - family: Costa
-      given: Miguel Reimão
-  call-number: NA7414 .A77 2015
-  citation-key: costa:2015moradas
-  container-title: >-
-    Arquitetura Tradicional no Mediterrâneo Ocidental = Traditional architecture
-    in the western Mediterranean
-  editor:
-    - family: Costa
-      given: Miguel Reimão
-    - family: Gómez Martínez
-      given: Susana
-    - family: Ribeiro
-      given: Vítor
-  event-place: 'Lisboa : Mértola'
-  event-title: >-
-    1o Congresso Internacional: Mértola, 13, 14 e 15 de maio de 2015 = 1st
-    International Conference: Mértola, 13th, 14th and 15th May 2015
-  ISBN: 978-972-8479-85-5
+      given: Lucio
+  citation-key: costa:1937documentacao1
+  container-title: Revista do Patrimônio Histórico e Artístico Nacional
   issued:
-    - year: 2015
-  language: pt
-  page: 13-19
-  publisher: Argumentum ; Campo Arqueológico de Mértola
-  publisher-place: 'Lisboa : Mértola'
+    - year: 1937
+  language: por
+  page: 31-39
+  title: Documentação necessária
+  type: article-journal
+  volume: '1'
+
+- id: costa:2001desenhos
+  author:
+    - family: Costa
+      given: Lucio
+  citation-key: costa:2001desenhos
+  editor:
+    - family: Vital
+      given: J. D.
+  event-place: Araxá
+  issued:
+    - year: 2001
+  language: por
+  number-of-pages: '24'
+  publisher: Companhia Brasileira de Metalurgia e Mineração
+  publisher-place: Araxá
+  title: Desenhos da juventude
+  type: book
+
+- id: cruz:2010fazendas
+  author:
+    - family: Cruz
+      given: Cícero Ferraz
+  call-number: NA8210.B69 C78 2010
+  citation-key: cruz:2010fazendas
+  collection-title: Monumenta
+  event-place: Brasília
+  ISBN: 978-85-7334-140-9
+  issued:
+    - year: 2010
+  language: por
+  number-of-pages: '354'
+  publisher: Instituto do Patrimônio Histórico e Artístico Nacional
+  publisher-place: Brasília
   source: Library of Congress ISBN
   title: >-
-    As moradas de casas do núcleo intramuros de Mértola: uma leitura preliminar
-    da arquitetura doméstica entre o final do Antigo Regime e o início do século
-    XX
-  title-short: As moradas de casas do núcleo intramuros de Mértola
-  type: paper-conference
+    Fazendas do sul de Minas Gerais: arquitetura rural nos séculos <span
+    style="font-variant:all-small-caps" smallcaps="smallcaps">XVIII</span> e
+    <span style="font-variant:all-small-caps" smallcaps="smallcaps">XIX</span>
+  title-short: Fazendas do sul de Minas Gerais
+  type: book
+
+- id: lino:1918nossa
+  author:
+    - family: Lino
+      given: Raul
+  call-number: '728.3'
+  citation-key: lino:1918nossa
+  event-place: Coimbra
+  issued:
+    date-parts:
+      - - '1918'
+  language: por
+  number-of-pages: '63'
+  original-date:
+    - year: 1918
+  publisher: Atlântida
+  publisher-place: Coimbra
+  source: webopac.sib.uc.pt Library Catalog
+  title: 'A nossa casa: apontamentos sobre o bom gosto na construção das casas simples'
+  title-short: A nossa casa
+  type: book
+
+- id: mattoso:2010patrimonio
+  call-number: NA1502 .P38 2010
+  citation-key: mattoso:2010patrimonio
+  collection-title: Arquitetura e Urbanismo
+  editor:
+    - family: Mattoso
+      given: José
+  event-place: Lisboa
+  issued:
+    - year: 2010
+    - year: 2011
+  language: por
+  number-of-volumes: '3'
+  publisher: Fundação Calouste Gulbenkian
+  publisher-place: Lisboa
+  source: Library of Congress ISBN
+  title: Património de origem portuguesa no mundo
+  type: book
+
+- id: mayumi:2008taipa
+  author:
+    - family: Mayumi
+      given: Lia
+  citation-key: mayumi:2008taipa
+  event-place: São Paulo
+  ISBN: 978-85-88585-17-1 85-88585-17-0
+  issued:
+    - year: 2008
+  language: por
+  publisher: Romano Guerra
+  publisher-place: São Paulo
+  source: Open WorldCat
+  title: >-
+    Taipa, canela-preta e concreto: estudo sobre o restauro de casas
+    bandeiristas
+  title-short: Taipa, canela-preta e concreto
+  type: book
+
+- id: mestre:2001arquitectura
+  author:
+    - family: Mestre
+      given: Victor
+  call-number: APP 003
+  citation-key: mestre:2001arquitectura
+  event-place: Lisboa
+  ISBN: 978-972-8479-13-8
+  issued:
+    - year: 2001
+  language: por
+  publisher: Argumentum
+  publisher-place: Lisboa
+  source: Biblioteca da Ordem dos Arquitetos (Lisboa)
+  title: Arquitectura popular da Madeira
+  type: book
+
+- id: neves:1896casa1
+  accessed:
+    - year: 2019
+      month: 10
+      day: 8
+  author:
+    - family: Neves
+      given: Henrique
+      dropping-particle: das
+  call-number: 72.031 (496)
+  citation-key: neves:1896casa1
+  container-title: 'Occidente: revista illustrada de Portugal e do extrangeiro'
+  container-title-short: Occidente
+  issue: '625'
+  issued:
+    - year: 1896
+      month: 5
+      day: 5
+  language: por
+  page: '102'
+  title: Casa portugueza I
+  type: article-journal
+  URL: http://hemerotecadigital.cm-lisboa.pt/OBRAS/Ocidente/Ocidente_1896.htm
+  volume: XIX
+
+- id: neves:1896casa2
+  accessed:
+    - year: 2019
+      month: 10
+      day: 8
+  author:
+    - family: Neves
+      given: Henrique
+      dropping-particle: das
+  call-number: 72.031 (496)
+  citation-key: neves:1896casa2
+  container-title: 'Occidente: revista illustrada de Portugal e do extrangeiro'
+  container-title-short: Occidente
+  issue: '626'
+  issued:
+    - year: 1896
+      month: 5
+      day: 15
+  language: por
+  page: 109–110
+  title: Casa portugueza II
+  type: article-journal
+  URL: http://hemerotecadigital.cm-lisboa.pt/OBRAS/Ocidente/Ocidente_1896.htm
+  volume: XIX
+
+- id: rodrigues:1944documentario
+  abstract: 28,5 cm x 21,5 cm
+  accessed:
+    - year: 2016
+      month: 1
+      day: 22
+  author:
+    - family: Rodrigues
+      given: José Wasth
+  call-number: 720.981 R696 d2
+  citation-key: rodrigues:1944documentario
+  contributor:
+    - literal: Biblioteca do Ministério da Fazenda no Rio de Janeiro
+  event-place: São Paulo
+  issued:
+    - year: 1944
+    - year: 1951
+  language: por
+  number-of-pages: '66'
+  number-of-volumes: '8'
+  publisher: Martins
+  publisher-place: São Paulo
+  source: Internet Archive
+  title: Documentário arquitetônico relativo á antiga construção civil no Brasil
+  type: book
+
+- id: rossa:2010patrimonio
+  call-number: NA1502 .P38 2010
+  citation-key: rossa:2010patrimonio
+  collection-editor:
+    - family: Mattoso
+      given: José
+  collection-number: Ásia Oceania
+  collection-title: Arquitetura e Urbanismo
+  editor:
+    - family: Rossa
+      given: Walter
+  event-place: Lisboa
+  ISBN: 978-989-95758-5-1
+  issued:
+    - year: 2010
+  language: por
+  number-of-pages: '554'
+  publisher: Fundação Calouste Gulbenkian
+  publisher-place: Lisboa
+  source: Library of Congress ISBN
+  title: Património de origem portuguesa no mundo
+  title-short: Património de origem portuguesa no mundo
+  type: book
+
+- id: saia:1977sao
+  author:
+    - family: Saia
+      given: Luís
+    - family: Trindade
+      given: Jaelson Bitran
+  call-number: '711.4'
+  citation-key: saia:1977sao
+  event-place: São Paulo
+  issued:
+    - year: 1977
+  language: por
+  number-of-pages: '110'
+  publisher: Secretaria da Cultura, Ciência e Tecnologia/Governo do Estado de S.Paulo
+  publisher-place: São Paulo
+  source: webopac.sib.uc.pt Library Catalog
+  title: >-
+    São Luis do Paraitinga: levantamento métrico-arquitetônico e fotografico, e
+    estudos da formação de uma cidade tradicional paulista
+  title-short: São Luis do Paraitinga
+  type: book
+
+- id: severo:1912origens
+  author:
+    - family: Severo
+      given: Ricardo
+  citation-key: severo:1912origens
+  event-place: Lisboa
+  issued:
+    - year: 1912
+  language: por
+  publisher: A.M. Teixeira
+  publisher-place: Lisboa
+  source: Open WorldCat
+  title: Origens da nacionalidade portugueza
+  type: book
+
+- id: simoes:1870reliquias
+  accessed:
+    - year: 2020
+      month: 6
+      day: 30
+  author:
+    - family: Simões
+      given: Augusto Filippe
+  citation-key: simoes:1870reliquias
+  event-place: Lisboa
+  issued:
+    - year: 1870
+  language: por
+  publisher: Typ. Portugueza
+  publisher-place: Lisboa
+  source: catalogo.bnportugal.gov.pt Library Catalog
+  title: >-
+    Reliquias da architectura romano-byzantina em Portugal e particularmente na
+    cidade de Coimbra
+  title-short: Reliquias da architectura romano-byzantina
+  type: book
+  URL: http://purl.pt/5605
+
+- id: sphan:1937revista
+  citation-key: sphan:1937revista
+  event-place: Rio de Janeiro
+  issued:
+    - year: 1937
+  language: por
+  publisher: Serviço do Patrimônio Histórico e Artístico Nacional
+  publisher-place: Rio de Janeiro
+  title: Revista do Patrimônio Histórico e Artístico Nacional
+  type: book
+  volume: '1'
+
+- id: trindade:2010sao
+  author:
+    - family: Trindade
+      given: Jaelson Bitran
+  citation-key: trindade:2010sao
+  event-place: São Paulo
+  issued:
+    - year: 2010
+      month: 3
+  language: por
+  publisher: Superintendência do Iphan em São Paulo
+  publisher-place: São Paulo
+  title: São Luiz do Paraitinga
+  type: book
+
+- id: varnhagen:1842mosteiro1
+  abstract: >-
+    Publication suspended from Jan. 1845 to Aug. 1846, May to Sept. 1847, Dec.
+    1847 to Aug. 1852, Jan. 1859 to Dec. 1865, inclusive; Vols. 1-[8] have
+    title: O Panorama. Jornal litterario e instructivo da Sociedade propagadora
+    dos conhecimentos uteis; No more published; 26
+
+    . v. 1-5, maio 6, 1937-dez. 1841; v. [6-8] (2. ser., v. 1-3), jan. 1842-dez.
+    1844; v. 9-13 (3. ser. v. 1-5), set. 5, 1846-dez. 1856; v. 14-15 (4. ser.,
+    v. 1-2), jan 1857-dez. 1858; v. 16-18 (5. ser., v. 1-3), [jan.?] 1866-
+    [dez.?] 1868
+  accessed:
+    - year: 2020
+      month: 9
+      day: 15
+  author:
+    - family: Varnhagen
+      given: Francisco Adolfo
+      dropping-particle: de
+  call-number: AAA-0559
+  citation-key: varnhagen:1842mosteiro1
+  container-title: 'O Panorama: semanario de litteratura e instrucção'
+  container-title-short: Panorama
+  editor:
+    - family: Herculano
+      given: Alexandre
+  issued:
+    - year: 1842
+  language: por
+  page: 58–61, 66–68, 73–76, 99–102, 109–111, 125–126, 130, 138
+  source: Internet Archive
+  title: Mosteiro de Belém
+  type: article-journal
+  URL: http://archive.org/details/opanoramasemanar06sociuoft
+  volume: 1, 2.ª série
+
+- id: varnhagen:1842noticia
+  accessed:
+    - year: 2020
+      month: 6
+      day: 30
+  author:
+    - family: Varnhagen
+      given: Francisco Adolfo
+      dropping-particle: de
+  call-number: '9921741550001551'
+  citation-key: varnhagen:1842noticia
+  contributor:
+    - literal: Getty Research Institute
+  event-place: Lisboa
+  issued:
+    - year: 1842
+  language: por
+  number-of-pages: '222'
+  publisher: Sociedade Propagadora de Conhecimentos Úteis
+  publisher-place: Lisboa
+  source: Internet Archive
+  title: Notícia histórica e descriptiva do Mosteiro de Belém
+  type: book
+  URL: http://archive.org/details/noticiahistorica00varn
+
+- id: weissheimer:2012imigracao
+  call-number: NA7299.R53 I55 2012
+  citation-key: weissheimer:2012imigracao
+  collection-number: '1'
+  collection-title: Edições técnicas sobre patrimônio material
+  contributor:
+    - family: Gonçalves
+      given: Rogério Bessa
+  editor:
+    - family: Weissheimer
+      given: Maria Regina
+  event-place: Brasília
+  ISBN: 978-85-7334-201-7
+  issued:
+    - year: 2012
+  language: por
+  number-of-pages: '89'
+  publisher: Instituto do Patrimônio Histórico e Artístico Nacional
+  publisher-place: Brasília
+  source: Library of Congress ISBN
+  title: Imigração japonesa no Vale do Ribeira em São Paulo
+  type: book
 ...
