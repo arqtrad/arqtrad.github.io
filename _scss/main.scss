@@ -615,7 +615,7 @@ article {
   @extend .g-3;
 }
 
-.row:not(.wide) > section:not(.wide),
+article > section:not(.wide),
 .lead {
   @extend .col-lg-8;
   h2 {
