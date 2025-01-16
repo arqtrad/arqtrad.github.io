@@ -1,10 +1,8 @@
 ---
 layout          : "layouts/base.njk"
-header:
-  teaser        : "/assets/media/arqtrad-teaser.jpg"
-  overlay_image : "/assets/media/arqtrad-overlay.jpg"
-  overlay_filter: 0.3
-  suppressTitle: true
+locale: "pt-PT"
+classes:
+  - "suppress-title"
 triptych        : documentarios
 templateEngineOverride: njk,md
 ---
