@@ -23,6 +23,8 @@ templateEngineOverride: njk,md
 
 # Documentários # {.wide}
 
+<p class="text-center">Os documentários serão publicados em breve.</p>
+
 ```{=html}
 {% include "partials/triptych.njk" %}
 ```
