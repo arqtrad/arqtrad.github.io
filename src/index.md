@@ -1,6 +1,6 @@
 ---
 title: "Arquitetura tradicional no Brasil e nos países de influência portuguesa"
-excerpt: >
+description: >
   Documentário de casas, edifícios cívicos e espaços urbanos para uso de
   investigadores, estudantes e diletantes.
 layout          : "layouts/base.njk"
@@ -8,22 +8,14 @@ locale          : "pt-PT"
 classes:
   - "splash"
 header:
-  teaser        : "/assets/media/arqtrad-teaser.jpg"
-  overlay_image : "/assets/media/arqtrad-overlay.jpg"
+  teaser        : "/media/arqtrad-teaser.jpg"
+  overlay_image : "/media/arqtrad-overlay.jpg"
   overlay_filter: 0.7
 triptych        : documentarios
 templateEngineOverride: njk,md
 ---
 
-```{=html}
-{% if not lang %}
-  {% set lang = site.locale %}
-{% endif %}
-```
-
 # Documentários # {.wide}
-
-<p class="text-center">Os documentários serão publicados em breve.</p>
 
 ```{=html}
 {% include "partials/triptych.njk" %}

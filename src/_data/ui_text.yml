@@ -51,6 +51,7 @@ en: &DEFAULT_EN
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
   page_not_found             : "Page not found."
+  coming_soon                : "Coming soon..."
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -271,6 +272,7 @@ pt: &DEFAULT_PT
   search_algolia_no_results  :
   iconography                : "Iconografia"
   page_not_found             : "Página não encontrada."
+  coming_soon                : "Breve..."
 pt-PT:
   <<: *DEFAULT_PT
 # Brazilian Portuguese
@@ -324,6 +326,7 @@ pt-BR:
   back_to_top                : "Voltar para o topo"
   load_all                   : "Carregar lista completa"
   page_not_found             : "Página não encontrada."
+  coming_soon                : "Em breve..."
   type: # https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
     article-journal          : "artigo em periódico"
     article-magazine         : "artigo em revista"
