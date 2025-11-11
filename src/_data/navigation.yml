@@ -6,7 +6,7 @@ main:
   - title : >
       <i class="bi bi-github" aria-hidden="true"></i>
       Dados abertos e como contribuir
-    url   : "https://codeberg.org/tradicional/arquitetura"
+    url   : "https://github.com/arqtrad"
     target: "_blank"
 
 documentarios:
