@@ -1,6 +1,6 @@
 [submodule "tools"]
 	path = tools
-	url = https://codeberg.org/tradicional/site-tools.git
+	url = git@github.com:arqtrad/site-tools.git
 [submodule "src/_data/schemata"]
 	path = src/_data/schemata
-	url = https://codeberg.org/tradicional/schemata.git
+	url = git@github.com:arqtrad/schemata.git
