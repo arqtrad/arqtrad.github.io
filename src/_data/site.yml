@@ -63,7 +63,7 @@ footer:
   links:
     - label: "E-mail"
       icon : "bi bi-envelope"
-      url  : "mailto:labeurbe@unb.br"
+      url  : "mailto:doc.mod@unb.br"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
