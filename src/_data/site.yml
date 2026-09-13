@@ -7,7 +7,7 @@ name                     : "Pedro P. Palazzo"
 description: >-
   Documentários da arquitetura tradicional publicada na bibliografia de
   referência.
-url                      : "https://arquitetura.tradicional.arq.br"
+url                      : "https://tradicional.arq.br"
 baseurl                  : 
 repository               : "arqtrad/arqtrad.github.io"
 teaser                   : 
@@ -27,17 +27,17 @@ og_image                 :
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : Organization # Person or Organization (defaults to Person)
-  name                   : "Arquitetura Tradicional Luso-brasileira"
+  type: Organization # Person or Organization (defaults to Person)
+  name: "Arquitetura Tradicional Luso-brasileira"
   links: # An array of links to social media profiles
 
 # Site Author
 author:
-  name             : "Pedro P. Palazzo"
-  avatar           : "https://avatars.githubusercontent.com/u/8295666?s=400&u=874bd9ba623ae5ceb9cd1b559bab3479fcda9a30&v=4"
-  bio              : "Professor Associado"
-  location         : "FAU–UnB"
-  email            : "palazzo@unb.br"
+  name: "Pedro P. Palazzo"
+  avatar: "https://avatars.githubusercontent.com/u/8295666?s=400&u=874bd9ba623ae5ceb9cd1b559bab3479fcda9a30&v=4"
+  bio: "Professor Associado"
+  location: "FAU–UnB"
+  email: "palazzo@unb.br"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -76,5 +76,5 @@ footer:
       target: "_blank"
     - label: "GitHub"
       icon : "bi bi-github"
-      url  : "https://github.com/arqtrad/arqtrad.github.io"
+      url  : "https://github.com/arqtrad/"
       target: "_blank"
