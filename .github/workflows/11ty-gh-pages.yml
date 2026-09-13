@@ -38,7 +38,7 @@ jobs:
       - name: Build with NPM
         run : |
           npm install
-          npm run build
+          npm run prod:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
 
