@@ -21,8 +21,7 @@
 		"css-prefix": "postcss --replace assets/css/main.css --use autoprefixer --map",
 		"watch": "nodemon --delay 3 -e html,scss -x \"npm run css\"",
 		"start": "npm-run-all --parallel watch dev",
-		"dev:build": "npm-run-all css 11ty",
-		"prod:build": "MY_ENVIRONMENT=production npm-run-all css 11ty",
+		"build": "npm-run-all css 11ty",
 		"test": "npm-run-all css-lint css"
 	},
 	"dependencies": {
