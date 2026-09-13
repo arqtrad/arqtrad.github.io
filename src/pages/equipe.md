@@ -1,5 +1,6 @@
 ---
 title: "Membros"
+permalink: "/equipe{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber | plus: 1}}{% endif %}/"
 description: >
   Membros do projeto de pesquisa,
   listados por ordem de titulação e antiguidade no projeto.
