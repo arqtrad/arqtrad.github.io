@@ -28,6 +28,7 @@ module.exports = function(eleventyConfig) {
   *************************/
   // Copy assets/ to _site/assets
   eleventyConfig.addPassthroughCopy({"tools/assets": "assets"});
+  eleventyConfig.addPassthroughCopy({"assets/css": "assets/css"});
   eleventyConfig.addPassthroughCopy("src/media");
   // eleventyConfig.addPassthroughCopy("src/dwg");
   eleventyConfig.addPassthroughCopy({ "node_modules/leaflet/dist": "assets/leaflet" });
