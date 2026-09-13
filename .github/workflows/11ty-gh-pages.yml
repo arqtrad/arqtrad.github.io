@@ -31,7 +31,7 @@ jobs:
           brew update
           brew install pandoc pandoc-crossref
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           lfs: "true"
           submodules: "recursive"
@@ -40,7 +40,7 @@ jobs:
           npm install
           npm run build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
 
   # Deployment job
   deploy:
@@ -53,4 +53,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
