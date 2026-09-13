@@ -1,11 +1,11 @@
 main:
-  - title : "Sobre o projeto"
-    url   : "/#sobre-o-projeto"
-  - title : "Equipe"
+  - title : "Projeto científico"
+    url   : "/projeto/"
+  - title : "Membros"
     url   : "/equipe/"
   - title : >
       <i class="bi bi-github" aria-hidden="true"></i>
-      Dados abertos e como contribuir
+      Dados abertos
     url   : "https://github.com/arqtrad"
     target: "_blank"
 
